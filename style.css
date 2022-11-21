@@ -375,6 +375,15 @@ footer .box3 button:hover
 
 @media screen and (max-width: 640px)
 {
+    section.content
+    {
+        padding: 100px 25px;
+    }
+
+    section.content p
+    {
+        width: 100%;
+    }
     nav .menu-btn
     {
         font-size: 25px;
@@ -465,12 +474,14 @@ footer .box3 button:hover
         background-image: url(images/IMG_20180917_130646.jpg);
         background-attachment: fixed;
         background-size: cover;
+        background-position: -500px ;
         height: 100vh;
     }
     
     
     
     /* Conteeeeeeeent */
+   
     .content .box .text h2
     {
         font-size: 35px;
@@ -481,7 +492,7 @@ footer .box3 button:hover
     .content .box .text p
     {
         color: var(--p-gray);
-        width: 385px;
+        width: 100%;
         line-height: 30px;
         margin-top: 30px;
     }
@@ -506,7 +517,7 @@ footer .box3 button:hover
 
     .content .box1 img
     {
-        width: 400px;
+        width: 300px;
     }
     
     .content .box2
@@ -524,17 +535,17 @@ footer .box3 button:hover
     .content .box2 .text p
     {
         font-family: 'Montserrat', sans-serif;
-        width: 200px;
+        width: 100%;
     }
     .content .box2 .image
     {
         position: absolute;
-        bottom: 300px;
-        left: -10px;
+        bottom: 220px;
+        left: 10px;
     }
     .content .box2 .image img
     {
-        width: 300px;
+        width: 250px;
     }
     
     .content .box3
@@ -553,17 +564,17 @@ footer .box3 button:hover
     .content .box3 .text p
     {
         font-family: 'Montserrat', sans-serif;
-        width: 200px;
+        width: 100%;
     }
     .content .box3 .image
     {
         position: absolute;
-        left: -80px;
-        bottom: 300px;
+        left: 20px;
+        bottom: 250px;
     }
     .content .box3 .image img
     {
-        width: 305px;
+        width: 250px;
     }
     
     .content .box4
@@ -582,17 +593,17 @@ footer .box3 button:hover
     .content .box4 .text p
     {
         font-family: 'Montserrat', sans-serif;
-        width: 200px;
+        width: 100%;
     }
     .content .box4 .image
     {
         position: absolute;
-        right: -80px;
+        right: 20px;
         bottom: 250px;
     }
     .content .box4 .image img
     {
-        width: 300px;
+        width: 250px;
     }
     
     .content .box5
@@ -604,7 +615,7 @@ footer .box3 button:hover
     }
     .content .box5 p 
     {
-        width: 180px;
+        width: 100%;
     }
     .content .box5 img
     {
@@ -664,6 +675,10 @@ footer .box3 button:hover
         opacity: 0.6;
     }
     
+    footer{
+        height: 70vh;
+    }
+
     footer .box3
     {
         margin-top: 50px;
